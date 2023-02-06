@@ -1,0 +1,46 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateUnit($filter: ModelSubscriptionUnitFilterInput) {
+  onCreateUnit(filter: $filter) {
+    unitNumber
+    width
+    length
+    height
+    isAvailable
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateUnit($filter: ModelSubscriptionUnitFilterInput) {
+  onUpdateUnit(filter: $filter) {
+    unitNumber
+    width
+    length
+    height
+    isAvailable
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteUnit($filter: ModelSubscriptionUnitFilterInput) {
+  onDeleteUnit(filter: $filter) {
+    unitNumber
+    width
+    length
+    height
+    isAvailable
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0527DBC18EA2FCB270E99E63 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B8C2D18708BA49C272FE8CD /* awsconfiguration.json */; };
+		160E8CAFB0280A60B12247C6 /* Unit+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AAD6CEBEA0E7B9DB9C9C9D /* Unit+Schema.swift */; };
+		3A14BC72E243E10F21ED4D43 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BDC0684F3EF021B76FCDE15 /* amplifyconfiguration.json */; };
+		A423A9EEE58C2BE832D9CD64 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4337DCEECA1753721E74B41 /* Unit.swift */; };
 		C0051C30299062BF002F802D /* self_storage_adminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0051C2F299062BF002F802D /* self_storage_adminApp.swift */; };
 		C0051C32299062BF002F802D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0051C31299062BF002F802D /* ContentView.swift */; };
 		C0051C34299062C0002F802D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0051C33299062C0002F802D /* Assets.xcassets */; };
@@ -14,6 +18,12 @@
 		C0051C42299062C0002F802D /* self_storage_adminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0051C41299062C0002F802D /* self_storage_adminTests.swift */; };
 		C0051C4C299062C0002F802D /* self_storage_adminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0051C4B299062C0002F802D /* self_storage_adminUITests.swift */; };
 		C0051C4E299062C0002F802D /* self_storage_adminUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0051C4D299062C0002F802D /* self_storage_adminUITestsLaunchTests.swift */; };
+		C0051C5C29906C31002F802D /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = C0051C5B29906C31002F802D /* AWSAPIPlugin */; };
+		C0051C5E29906C31002F802D /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = C0051C5D29906C31002F802D /* AWSDataStorePlugin */; };
+		C0051C6029906C31002F802D /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = C0051C5F29906C31002F802D /* AWSS3StoragePlugin */; };
+		C0051C6229906C31002F802D /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = C0051C6129906C31002F802D /* Amplify */; };
+		C0051C642990916F002F802D /* amplify in Resources */ = {isa = PBXBuildFile; fileRef = C0051C632990916F002F802D /* amplify */; };
+		C0513873FED53DA005EF8CBA /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BCC47397F350F58A69F71C /* AmplifyModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14BCC47397F350F58A69F71C /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		4BDC0684F3EF021B76FCDE15 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		5B8C2D18708BA49C272FE8CD /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		97AAD6CEBEA0E7B9DB9C9C9D /* Unit+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Unit+Schema.swift"; path = "amplify/generated/models/Unit+Schema.swift"; sourceTree = "<group>"; };
+		A4337DCEECA1753721E74B41 /* Unit.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Unit.swift; path = amplify/generated/models/Unit.swift; sourceTree = "<group>"; };
 		C0051C2C299062BF002F802D /* self-storage-admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "self-storage-admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0051C2F299062BF002F802D /* self_storage_adminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = self_storage_adminApp.swift; sourceTree = "<group>"; };
 		C0051C31299062BF002F802D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +60,7 @@
 		C0051C47299062C0002F802D /* self-storage-adminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "self-storage-adminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0051C4B299062C0002F802D /* self_storage_adminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = self_storage_adminUITests.swift; sourceTree = "<group>"; };
 		C0051C4D299062C0002F802D /* self_storage_adminUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = self_storage_adminUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0051C632990916F002F802D /* amplify */ = {isa = PBXFileReference; lastKnownFileType = folder; path = amplify; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0051C5C29906C31002F802D /* AWSAPIPlugin in Frameworks */,
+				C0051C6229906C31002F802D /* Amplify in Frameworks */,
+				C0051C5E29906C31002F802D /* AWSDataStorePlugin in Frameworks */,
+				C0051C6029906C31002F802D /* AWSS3StoragePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		948219D9F6225BB49860D8F9 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				14BCC47397F350F58A69F71C /* AmplifyModels.swift */,
+				97AAD6CEBEA0E7B9DB9C9C9D /* Unit+Schema.swift */,
+				A4337DCEECA1753721E74B41 /* Unit.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+		B9DBF114E8C4B68E967F66DC /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				5B8C2D18708BA49C272FE8CD /* awsconfiguration.json */,
+				4BDC0684F3EF021B76FCDE15 /* amplifyconfiguration.json */,
+				C0051C632990916F002F802D /* amplify */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
 		C0051C23299062BF002F802D = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +119,8 @@
 				C0051C40299062C0002F802D /* self-storage-adminTests */,
 				C0051C4A299062C0002F802D /* self-storage-adminUITests */,
 				C0051C2D299062BF002F802D /* Products */,
+				B9DBF114E8C4B68E967F66DC /* AmplifyConfig */,
+				948219D9F6225BB49860D8F9 /* AmplifyModels */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +187,12 @@
 			dependencies = (
 			);
 			name = "self-storage-admin";
+			packageProductDependencies = (
+				C0051C5B29906C31002F802D /* AWSAPIPlugin */,
+				C0051C5D29906C31002F802D /* AWSDataStorePlugin */,
+				C0051C5F29906C31002F802D /* AWSS3StoragePlugin */,
+				C0051C6129906C31002F802D /* Amplify */,
+			);
 			productName = "self-storage-admin";
 			productReference = C0051C2C299062BF002F802D /* self-storage-admin.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +265,9 @@
 				Base,
 			);
 			mainGroup = C0051C23299062BF002F802D;
+			packageReferences = (
+				C0051C5A29906C31002F802D /* XCRemoteSwiftPackageReference "amplify-swift" */,
+			);
 			productRefGroup = C0051C2D299062BF002F802D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +286,9 @@
 			files = (
 				C0051C38299062C0002F802D /* Preview Assets.xcassets in Resources */,
 				C0051C34299062C0002F802D /* Assets.xcassets in Resources */,
+				0527DBC18EA2FCB270E99E63 /* awsconfiguration.json in Resources */,
+				C0051C642990916F002F802D /* amplify in Resources */,
+				3A14BC72E243E10F21ED4D43 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +315,9 @@
 			files = (
 				C0051C32299062BF002F802D /* ContentView.swift in Sources */,
 				C0051C30299062BF002F802D /* self_storage_adminApp.swift in Sources */,
+				C0513873FED53DA005EF8CBA /* AmplifyModels.swift in Sources */,
+				160E8CAFB0280A60B12247C6 /* Unit+Schema.swift in Sources */,
+				A423A9EEE58C2BE832D9CD64 /* Unit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +404,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,6 +458,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -429,7 +490,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -467,7 +528,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -612,6 +673,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0051C5A29906C31002F802D /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0051C5B29906C31002F802D /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0051C5A29906C31002F802D /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		C0051C5D29906C31002F802D /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0051C5A29906C31002F802D /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSDataStorePlugin;
+		};
+		C0051C5F29906C31002F802D /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0051C5A29906C31002F802D /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSS3StoragePlugin;
+		};
+		C0051C6129906C31002F802D /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0051C5A29906C31002F802D /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C0051C24299062BF002F802D /* Project object */;
 }

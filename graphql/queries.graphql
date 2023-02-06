@@ -1,0 +1,68 @@
+# this is an auto generated file. This will be overwritten
+query GetUnit($id: ID!) {
+  getUnit(id: $id) {
+    unitNumber
+    width
+    length
+    height
+    isAvailable
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+query ListUnits(
+  $filter: ModelUnitFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listUnits(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      unitNumber
+      width
+      length
+      height
+      isAvailable
+      id
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncUnits(
+  $filter: ModelUnitFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncUnits(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      unitNumber
+      width
+      length
+      height
+      isAvailable
+      id
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}

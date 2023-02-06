@@ -1,0 +1,55 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateUnit(
+  $input: CreateUnitInput!
+  $condition: ModelUnitConditionInput
+) {
+  createUnit(input: $input, condition: $condition) {
+    unitNumber
+    width
+    length
+    height
+    isAvailable
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation UpdateUnit(
+  $input: UpdateUnitInput!
+  $condition: ModelUnitConditionInput
+) {
+  updateUnit(input: $input, condition: $condition) {
+    unitNumber
+    width
+    length
+    height
+    isAvailable
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation DeleteUnit(
+  $input: DeleteUnitInput!
+  $condition: ModelUnitConditionInput
+) {
+  deleteUnit(input: $input, condition: $condition) {
+    unitNumber
+    width
+    length
+    height
+    isAvailable
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
